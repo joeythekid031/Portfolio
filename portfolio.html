@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe's Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -28,23 +28,101 @@
 
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <main>
-                <div class="card">
-                    <div class="card-body">
-                        This is some text within a card body.
+
+    <div class="container">
+        <h1 style="padding-left: 30px; font-style: italic;">My projects</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3"
+                    style="background-color: rgb(203, 212, 186); justify-content: center; margin-left: 30px; margin-right: 30px; min-height: 400px; max-height: 200%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/pictutes/simpsons.jpg" alt="screensshot of app"
+                                style="width: 350px; margin-left: 20px; margin-top: 35px; margin-bottom: 20px;">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Simpsons group project!</h5>
+                                <p class="card-text" id="projectInfo">ABOUT THIS PROJECT: This was a group project that taught me a lot about working as a team and the best way to use git! This is a fun quiz that will test what you know about the simpsons and return a gif that corresponds to your score!</p>
+                                <ul id="projectLinkList">
+                                    <li >
+                                        <a href="https://github.com/joeythekid031/simpsons-quote-trivia">Link to Github page!</a>
+                                    </li>
+                                    <li >
+                                        <a href="https://joeythekid031.github.io/simpsons-quote-trivia/">Link to deplyed page!</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </main>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3"
+                    style="background-color: rgb(203, 212, 186); justify-content: center; margin-left: 30px; margin-right: 30px; min-height: 400px; max-height: 200%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/pictutes/weather.jpg" alt="my picture"
+                                style="width: 350px; margin-left: 20px; margin-top: 35px; margin-bottom: 20px;">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Wether API</h5>
+                                <p class="card-text" id="projectInfo">ABOUT THIS PROJECT: This prject dynamically loads the weather from and API. This was a fun project that taught me a lot about working with API's. you can search by city and get the current weather and a future forcast for five days.</p>
+                                <ul id="projectLinkList">
+                                    <li >
+                                        <a href="https://github.com/joeythekid031/WeatherAPI">Link to Github page!</a>
+                                    </li>
+                                    <li >
+                                        <a href="https://joeythekid031.github.io/WeatherAPI/">Link to deplyed page!</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3"
+                    style="background-color: rgb(203, 212, 186); justify-content: center; margin-left: 30px; margin-right: 30px; min-height: 400px; max-height: 200%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/pictutes/refactor.jpg" alt="my picture"
+                                style="width: 350px; margin-left: 20px; margin-top: 35px; margin-bottom: 20px;">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Refactoring for acessability.</h5>
+                                <p class="card-text" id="projectInfo">ABOUT THIS PROJECT: This was one of my first projects where we took an existing page and made it accessable for all user. During this project I focused on making every item arya accessable.</p>
+                                <ul id="projectLinkList">
+                                    <li >
+                                        <a href="https://github.com/joeythekid031/Homework1-3.14.20">Link to Github page!</a>
+                                    </li>
+                                    <li >
+                                        <a href="https://joeythekid031.github.io/Homework1-3.14.20//">Link to deplyed page!</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">row3</div>
-    </div>
-    <div class="row">
-        <div class="col">row4</div>
-    </div>
+    <footer style="background-color: dimgray; margin-top: 7%; margin-bottom: 20px; text-align: center;">
+        <h6>©Joseph Stutsman</h6>
+        <p>@joeyhtekid031@gmail.com</p>
+    </footer>
 
 
 </body>
